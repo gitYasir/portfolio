@@ -1,9 +1,7 @@
+import "./Splash.module.scss";
+
 function Splash() {
-  return (
-    <div>
-      <h1></h1>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Splash;
