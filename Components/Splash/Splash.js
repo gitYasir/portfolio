@@ -1,7 +1,6 @@
-import Image from "next/image";
 import css from "./Splash.module.scss";
-import linkedIn from "../../public/linkedin.svg";
-import gitHub from "../../public/github.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function Splash() {
   return (
@@ -13,18 +12,14 @@ function Splash() {
           DEVELOPER.
         </h3>
         <div className={css.extLinks}>
-          <Image
-            src={linkedIn}
-            alt="LinkedIn Logo"
-            height={50}
-            width={50}
+          <FontAwesomeIcon
+            icon={faLinkedinIn}
+            style={{ width: "40px", height: "40px" }}
             className={css.icon}
           />
-          <Image
-            src={gitHub}
-            alt="GitHub Logo"
-            height={50}
-            width={50}
+          <FontAwesomeIcon
+            icon={faGithub}
+            style={{ width: "40px", height: "40px" }}
             className={css.icon}
           />
         </div>

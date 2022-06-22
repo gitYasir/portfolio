@@ -32,12 +32,13 @@
       @include disFlex;
       justify-content: space-evenly;
       width: 200px;
+      margin-top: 10px;
       .icon {
         color: white;
-        background-color: white;
 
         &:hover {
           cursor: pointer;
+          color: skyblue;
         }
       }
     }
