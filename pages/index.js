@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Splash from "../Components/Splash/Splash";
 import Navbar from "../Components/NavBar/Navbar";
+import AboutMe from "../Components/AboutMe/AboutMe";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <Navbar />
       <Splash />
+      <AboutMe />
     </>
   );
 }
