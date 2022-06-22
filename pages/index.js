@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Splash from "../Components/Splash/Splash";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import Navbar from "../Components/NavBar/Navbar";
 
 export default function Home() {
   return (
@@ -13,6 +12,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
       </div>
+      <Navbar />
       <Splash />
     </>
   );
