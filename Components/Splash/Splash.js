@@ -1,6 +1,7 @@
 import Image from "next/image";
 import css from "./Splash.module.scss";
 import linkedIn from "../../public/linkedin.svg";
+import gitHub from "../../public/github.svg";
 
 function Splash() {
   return (
@@ -11,8 +12,21 @@ function Splash() {
           DEVELOPER LOOKING FOR AN ENTRY-LEVEL ROLE AS A FRONTEND OR BACKEND
           DEVELOPER.
         </h3>
-        <div>
-          <Image src={linkedIn} alt="LinkedIn Logo" height={25} width={25} />
+        <div className={css.extLinks}>
+          <Image
+            src={linkedIn}
+            alt="LinkedIn Logo"
+            height={50}
+            width={50}
+            className={css.icon}
+          />
+          <Image
+            src={gitHub}
+            alt="GitHub Logo"
+            height={50}
+            width={50}
+            className={css.icon}
+          />
         </div>
       </div>
     </div>

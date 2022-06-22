@@ -1,7 +1,11 @@
-.splash {
+@mixin disFlex {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.splash {
+  @include disFlex;
   height: 100vh;
   width: 100%;
   background-image: url("../../public/sky.jpg");
@@ -11,15 +15,31 @@
   background-attachment: fixed;
 
   .info {
+    @include disFlex;
     background-color: rgba($color: #000000, $alpha: 0.8);
     max-width: 40%;
-    min-width: 700px;
+    min-width: 500px;
     height: auto;
     text-align: center;
     padding: 4rem;
-  }
+    flex-direction: column;
 
-  h3 {
-    color: white;
+    h3 {
+      color: white;
+    }
+
+    .extLinks {
+      @include disFlex;
+      justify-content: space-evenly;
+      width: 200px;
+      .icon {
+        color: white;
+        background-color: white;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
