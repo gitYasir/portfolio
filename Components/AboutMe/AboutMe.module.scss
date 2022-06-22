@@ -1,2 +1,11 @@
-.aboutMe {
+@mixin disFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeSec {
+  @include disFlex;
+  flex-direction: column;
+  height: 100vh;
 }
