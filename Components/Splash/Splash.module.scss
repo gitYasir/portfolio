@@ -1,9 +1,25 @@
 .splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 100%;
-  background-image: url("../../public/earthFromSpace.jpg");
+  background-image: url("../../public/sky.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+  .info {
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    max-width: 40%;
+    min-width: 700px;
+    height: auto;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  h3 {
+    color: white;
+  }
 }
