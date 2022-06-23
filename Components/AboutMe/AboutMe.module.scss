@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .aboutMeSec {
@@ -14,14 +15,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  .picContainer {
-    height: 150px;
-    width: 160px;
-    position: relative;
-    border: 2px solid skyblue;
-    border-radius: 50%;
-    .pic {
+  .textArea {
+    @include disFlex;
+    width: 75%;
+    .picContainer {
+      height: 150px;
+      width: 160px;
+      position: relative;
+      border: 2px solid skyblue;
       border-radius: 50%;
+      margin-bottom: 1rem;
+      .pic {
+        border-radius: 50%;
+      }
+    }
+    .aboutMe {
+      @include disFlex;
+      border-bottom: 1px solid gray;
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        max-width: 70%;
+        font-size: 1.1rem;
+      }
     }
   }
 }
