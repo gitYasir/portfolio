@@ -32,13 +32,24 @@
     .aboutMe {
       @include disFlex;
       border-bottom: 1px solid gray;
+      width: 100%;
+
       h3 {
         margin: 0;
         padding: 0;
       }
       p {
-        max-width: 70%;
+        max-width: 75%;
         font-size: 1.1rem;
+      }
+    }
+    .contactMe {
+      @include disFlex;
+      width: 100%;
+      border-bottom: 1px solid gray;
+      h3 {
+        margin: 0;
+        padding: 0;
       }
     }
   }

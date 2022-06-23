@@ -25,7 +25,13 @@ function AboutMe() {
           </p>
           {/* add a 'more' button that leads to a more in-depth about me */}
         </div>
-        <div>Contact</div>
+        <div className={css.contactMe}>
+          <h3>Contact Details</h3>
+          <ul>
+            <li>Email: Yasir.Ibrahim@hotmail.co.uk</li>
+            <li>Number: 07742610978</li>
+          </ul>
+        </div>
         <div>CV</div>
       </div>
     </section>
