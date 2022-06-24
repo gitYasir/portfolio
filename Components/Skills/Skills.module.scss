@@ -48,12 +48,13 @@
     flex-direction: column;
     justify-content: center;
     .titleArea {
+      padding-top: 2rem;
       border-bottom: 4px solid skyblue;
       width: 100%;
       margin-bottom: 1rem;
     }
     .barArea {
-      color: red;
+      padding: 1rem;
     }
   }
 }
