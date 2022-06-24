@@ -12,10 +12,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-  }
 
-  .titleArea {
-    border-bottom: 4px solid skyblue;
-    width: 100%;
+    .titleArea {
+      border-bottom: 4px solid skyblue;
+      width: 100%;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .iconContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .iconArea {
+          padding: 1rem;
+          margin: 0.5rem;
+          height: 90px;
+          width: 100px;
+          position: relative;
+          margin-top: 1rem;
+        }
+      }
+    }
   }
 }
