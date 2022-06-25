@@ -12,8 +12,6 @@ function AboutMe() {
             src={myPic}
             alt={"Yasir Ibrahim"}
             className={css.pic}
-            height={150}
-            width={170}
             layout="fill"
           />
         </div>
