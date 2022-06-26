@@ -9,7 +9,18 @@ function Projects() {
           <h3>Projects</h3>
         </div>
         <div className={css.projectsArea}>
-          <Project />
+          {data.map((project) => {
+            return (
+              <Project
+                key={Math.random()}
+                pic={project.screenShot}
+                name={project.projectName}
+                live={project.linkToLive}
+                code={project.linkToCode}
+                techStack={project.techStack}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

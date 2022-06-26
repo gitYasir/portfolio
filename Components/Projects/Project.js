@@ -1,27 +1,24 @@
 import Image from "next/image";
 import React from "react";
 import css from "./Projects.module.scss";
-import picc from "../../public/projects/finalProject1.jpg";
 
-function Project({ pic, name, live, code, description }) {
+function Project({ pic, name, live, code, techStack }) {
   return (
     <div className={css.projectCard}>
       <div className={css.textAndLinkArea}>
-        <ul>
-          <li>bullet point </li>
-          <li>bullet point </li>
-          <li>bullet point </li>
-          <li>bullet point </li>
-          <li>bullet point </li>
-          <li>bullet point </li>
-        </ul>
+        <h4>Tech Stack</h4>
+        <div className={css.stack}>
+          {techStack.map((tech) => {
+            return <p key={Math.random()}>{tech}</p>;
+          })}
+        </div>
         <div className={css.btn}>
           <button>Live</button>
           <button>code</button>
         </div>
       </div>
       <div className={css.picArea}>
-        <Image src={picc} alt="" layout="fill" className={css.screenShot} />
+        <Image src={pic} alt={name} layout="fill" className={css.screenShot} />
       </div>
     </div>
   );
