@@ -1,0 +1,26 @@
+.mainContainer {
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.871);
+  .subContainer {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .title {
+      border-bottom: 4px solid rgb(135, 206, 235);
+      width: 100%;
+    }
+    .projectsArea {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
