@@ -1,3 +1,4 @@
+import Project from "./Project";
 import css from "./Projects.module.scss";
 import data from "./ProjectsData";
 function Projects() {
@@ -7,7 +8,9 @@ function Projects() {
         <div className={css.title}>
           <h3>Projects</h3>
         </div>
-        <div className={css.projectsArea}></div>
+        <div className={css.projectsArea}>
+          <Project />
+        </div>
       </div>
     </div>
   );
