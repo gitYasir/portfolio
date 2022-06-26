@@ -1,17 +1,14 @@
-import { Card, Col, Row, Button, Text, Grid } from "@nextui-org/react";
+import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 import Link from "next/link";
 
 const ProjectCards = ({ name, pic, live, code }) => {
-  <Grid.Container gap={2} justify="center">
-    <Grid xs={12} sm={7}>
+  return (
+    <>
       <Card css={{ w: "100%", h: "400px" }}>
         <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
           <Col>
-            <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
-              Your day your way
-            </Text>
             <Text h3 color="white">
-              Your checklist for better sleep
+              {name}
             </Text>
           </Col>
         </Card.Header>
@@ -21,7 +18,7 @@ const ProjectCards = ({ name, pic, live, code }) => {
             objectFit="cover"
             width="100%"
             height="100%"
-            alt="Relaxing app background"
+            alt={name}
           />
         </Card.Body>
         <Card.Footer
@@ -36,25 +33,7 @@ const ProjectCards = ({ name, pic, live, code }) => {
         >
           <Row>
             <Col>
-              <Row>
-                <Col span={3}>
-                  <Card.Image
-                    src="https://nextui.org/images/breathing-app-icon.jpeg"
-                    css={{ bg: "black", br: "50%" }}
-                    height={40}
-                    width={40}
-                    alt="Breathing app icon"
-                  />
-                </Col>
-                <Col>
-                  <Text color="#d1d1d1" size={12}>
-                    {name}
-                  </Text>
-                </Col>
-              </Row>
-            </Col>
-            <Col>
-              <Row justify="flex-end">
+              <Row justify="center">
                 <Link href={live}>
                   <a>
                     <Button
@@ -98,8 +77,8 @@ const ProjectCards = ({ name, pic, live, code }) => {
           </Row>
         </Card.Footer>
       </Card>
-    </Grid>
-  </Grid.Container>;
+    </>
+  );
 };
 
 export default ProjectCards;
