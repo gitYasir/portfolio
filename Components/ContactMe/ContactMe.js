@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import css from "./ContactMe.module.scss";
 
 const ContactMe = () => {
   const form = useRef();
@@ -21,7 +22,7 @@ const ContactMe = () => {
         (result) => {
           console.log(result.text);
           e.target.reset();
-          toast.success("Sucess", {
+          toast.success("Message sent!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -40,13 +41,22 @@ const ContactMe = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <input type="text" name="user_name" placeholder="Name" />
-      <input type="email" name="user_email" placeholder="Email" />
-      <textarea name="message" placeholder="Message" />
-      <input type="submit" value="Send" />
-      <ToastContainer theme="dark" />
-    </form>
+    <div className={css.mainContainer}>
+      <div className={css.subContainer}>
+        <div className={css.title}>
+          <h3>Contact Me</h3>
+        </div>
+        <div className={css.formContainer}>
+          <form ref={form} onSubmit={sendEmail} className={css.form}>
+            <input type="text" name="user_name" placeholder="Name" />
+            <input type="email" name="user_email" placeholder="Email" />
+            <textarea name="message" placeholder="Message" />
+            <input type="submit" value="Send" />
+            <ToastContainer theme="dark" />
+          </form>
+        </div>
+      </div>
+    </div>
   );
 };
 
