@@ -4,6 +4,7 @@ import Navbar from "../Components/NavBar/Navbar";
 import AboutMe from "../Components/AboutMe/AboutMe";
 import Skills from "../Components/Skills/Skills";
 import Projects from "../Components/Projects/Projects";
+import ContactMe from "../Components/ContactMe/ContactMe";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Projects />
+      <ContactMe />
     </>
   );
 }
