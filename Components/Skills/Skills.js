@@ -5,7 +5,7 @@ import SkillBar from "react-skillbars";
 import { softSkills, colors } from "./Barskills";
 function Skills() {
   return (
-    <section className={css.mainContainer}>
+    <section className={css.mainContainer} id={"skills"}>
       <div className={css.techSkills}>
         <div className={css.titleArea}>
           <h3 className={css.title}>Skills & Technologies</h3>

@@ -6,7 +6,6 @@ import css from "./ContactMe.module.scss";
 
 const ContactMe = () => {
   const form = useRef();
-  console.log(process.env);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -41,7 +40,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className={css.mainContainer}>
+    <div className={css.mainContainer} id={"contactMe"}>
       <div className={css.subContainer}>
         <div className={css.title}>
           <h3>Contact Me</h3>
