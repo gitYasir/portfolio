@@ -48,10 +48,30 @@ const ContactMe = () => {
         </div>
         <div className={css.formContainer}>
           <form ref={form} onSubmit={sendEmail} className={css.form}>
-            <input type="text" name="user_name" placeholder="Name" />
-            <input type="email" name="user_email" placeholder="Email" />
-            <textarea name="message" placeholder="Message" />
-            <input type="submit" value="Send" />
+            <div className={css.inputs}>
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name*"
+                required
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email*"
+                required
+              />
+              <input
+                type="text"
+                name="company_name"
+                placeholder="Company Name"
+              />
+              <input type="text" name="number" placeholder="Number" />
+            </div>
+            <textarea name="message" placeholder="Message*" required />
+            <button type="submit" value="Send">
+              Send
+            </button>
             <ToastContainer theme="dark" />
           </form>
         </div>
