@@ -18,10 +18,10 @@ function AboutMe() {
         <div className={css.aboutMe}>
           <h3>About Me</h3>
           <p>
-            After 6 years of studying medicine in China, I realised my passion
-            was actually in technology and building apps from scratch. I am
-            looking for a junior developer role that will allow me to blend my
-            creativity, programming & problem-solving skills.
+            I believe my time in both med school and the coding bootcamp show
+            that I am a hard worker and that I do not leave things halfway done.
+            I pick up skills fast and I can work well as part of any team I am
+            with.
           </p>
           {/* add a 'more' button that leads to a more in-depth about me */}
         </div>
