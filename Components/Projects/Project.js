@@ -14,7 +14,7 @@ function Project({ pic, name, live, code, techStack }) {
         </div>
         <div className={css.btn}>
           <button>Live</button>
-          <button>code</button>
+          <button>Code</button>
         </div>
       </div>
       <div className={css.picArea}>

@@ -48,6 +48,15 @@
             justify-content: space-around;
             align-items: center;
             width: 100%;
+            button {
+              cursor: pointer;
+              border: none;
+              border-radius: 5px;
+              width: 80px;
+              &:hover {
+                background-color: rgba(112, 109, 109, 0.871);
+              }
+            }
           }
           .stack {
             display: flex;
