@@ -21,6 +21,9 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      @media (width<700px) {
+        width: 100%;
+      }
       .projectCard {
         display: flex;
         justify-content: space-between;
@@ -31,6 +34,9 @@
         background-color: skyblue;
         border-radius: 10px;
         transition: all 0.2s linear;
+        @media (width<700px) {
+          width: 100%;
+        }
         &:hover {
           cursor: pointer;
           transform: scale(1.05);
