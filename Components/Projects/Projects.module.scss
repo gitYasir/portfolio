@@ -1,5 +1,4 @@
 .mainContainer {
-  // padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.871);
@@ -50,6 +49,9 @@
           align-items: center;
           flex-direction: column;
           .btn {
+            a {
+              all: unset;
+            }
             display: flex;
             justify-content: space-around;
             align-items: center;

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import css from "./Projects.module.scss";
 
@@ -13,8 +14,16 @@ function Project({ pic, name, live, code, techStack }) {
           })}
         </div>
         <div className={css.btn}>
-          <button>Live</button>
-          <button>Code</button>
+          <Link href={live}>
+            <a target="_blank" rel="noopener noreferrer">
+              <button>Live</button>
+            </a>
+          </Link>
+          <Link href={code}>
+            <a target="_blank" rel="noopener noreferrer">
+              <button>Code</button>
+            </a>
+          </Link>
         </div>
       </div>
       <div className={css.picArea}>

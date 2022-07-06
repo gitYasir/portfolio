@@ -1,6 +1,5 @@
 import css from "./AboutMe.module.scss";
 import Image from "next/image";
-import myPic from "../../public/myPic.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 function AboutMe() {
@@ -9,7 +8,7 @@ function AboutMe() {
       <div className={css.textArea}>
         <div className={css.picContainer}>
           <Image
-            src={myPic}
+            src={"/myPic.jpeg"}
             alt={"Yasir Ibrahim"}
             className={css.pic}
             layout="fill"
