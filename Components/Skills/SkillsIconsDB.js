@@ -14,6 +14,8 @@ import html from "../../public/Icons/html-svgrepo-com.svg";
 import sass from "../../public/Icons/sass-svgrepo-com.svg";
 import git from "../../public/Icons/git-svgrepo-com.svg";
 import netlify from "../../public/Icons/netlify-svgrepo-com.svg";
+import ruby from "../../public/Icons/ruby-svgrepo-com.svg";
+import flutter from "../../public/Icons/flutter-svgrepo-com.svg";
 
 const skillsIcons = [
   { icon: js, name: "JavaScript" },
@@ -32,6 +34,8 @@ const skillsIcons = [
   { icon: gitActions, name: "GitHub Actions" },
   { icon: nextUI, name: "NextUI" },
   { icon: postman, name: "Postman" },
+  { icon: ruby, name: "Ruby" },
+  { icon: flutter, name: "Flutter (Learning)" },
 ];
 
 export default skillsIcons;
