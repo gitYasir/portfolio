@@ -16,6 +16,8 @@ import git from "../../public/Icons/git-svgrepo-com.svg";
 import netlify from "../../public/Icons/netlify-svgrepo-com.svg";
 import ruby from "../../public/Icons/ruby-svgrepo-com.svg";
 import flutter from "../../public/Icons/flutter-svgrepo-com.svg";
+import cypress from "../../public/Icons/cypress-svgrepo-com.svg";
+import jira from "../../public/Icons/jira-svgrepo-com.svg";
 
 const skillsIcons = [
   { icon: js, name: "JavaScript" },
@@ -26,6 +28,7 @@ const skillsIcons = [
   { icon: git, name: "Git" },
   { icon: auth0, name: "Auth0" },
   { icon: jest, name: "Jest" },
+  { icon: cypress, name: "Cypress" },
   { icon: netlify, name: "Netlify" },
   { icon: heroku, name: "Heroku" },
   { icon: postgreSQL, name: "PostgreSQL" },
@@ -35,6 +38,7 @@ const skillsIcons = [
   { icon: nextUI, name: "NextUI" },
   { icon: postman, name: "Postman" },
   { icon: ruby, name: "Ruby" },
+  { icon: jira, name: "Jira" },
   { icon: flutter, name: "Flutter (Learning)" },
 ];
 
