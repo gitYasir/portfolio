@@ -11,14 +11,18 @@ function Projects() {
         <div className={css.projectsArea}>
           {data.map((project) => {
             return (
-              <Project
-                key={Math.random()}
-                pic={project.screenShot}
-                name={project.projectName}
-                live={project.linkToLive}
-                code={project.linkToCode}
-                techStack={project.techStack}
-              />
+              <>
+                <Project
+                  key={Math.random()}
+                  pic={project.screenShot}
+                  name={project.projectName}
+                  live={project.linkToLive}
+                  code={project.linkToCode}
+                  techStack={project.techStack}
+                />
+                <Project text="Coming soon... " />
+                <Project text="Coming soon... " />
+              </>
             );
           })}
         </div>

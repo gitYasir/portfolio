@@ -23,6 +23,7 @@
       @media (width<700px) {
         width: 100%;
       }
+
       .projectCard {
         display: flex;
         justify-content: space-between;
@@ -86,6 +87,78 @@
           }
         }
       }
+    }
+  }
+}
+
+.blurr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 300px;
+  margin: 1rem;
+  background-color: skyblue;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  @media (width<700px) {
+    width: 100%;
+  }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 500ms ease;
+  }
+  .showtext {
+    &:hover {
+      z-index: 444;
+    }
+  }
+  .textAndLinkArea {
+    filter: blur(20px);
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    .btn {
+      a {
+        all: unset;
+      }
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      button {
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        &:hover {
+          background-color: rgba(112, 109, 109, 0.871);
+        }
+      }
+    }
+    .stack {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      p {
+        margin: 1rem;
+      }
+    }
+  }
+  .picArea {
+    height: 300px;
+    width: 250px;
+    filter: blur(25px);
+    position: relative;
+    .screenShot {
+      width: 100%;
+      border-radius: 0 10px 10px 0;
+      filter: blur(25px);
     }
   }
 }
