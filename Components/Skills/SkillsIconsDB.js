@@ -10,6 +10,7 @@ import nodeJS from "../../public/Icons/nodejs-svgrepo-com.svg";
 import postgreSQL from "../../public/Icons/postgresql-svgrepo-com.svg";
 import postman from "../../public/Icons/postman-icon-svgrepo-com.svg";
 import react from "../../public/Icons/react-svgrepo-com.svg";
+import json from "../../public/Icons/json-svgrepo-com.svg";
 import html from "../../public/Icons/html-svgrepo-com.svg";
 import sass from "../../public/Icons/sass-svgrepo-com.svg";
 import git from "../../public/Icons/git-svgrepo-com.svg";
@@ -31,6 +32,7 @@ const skillsIcons = [
   { icon: cypress, name: "Cypress" },
   { icon: netlify, name: "Netlify" },
   { icon: heroku, name: "Heroku" },
+  { icon: json, name: "JSON" },
   { icon: postgreSQL, name: "PostgreSQL" },
   { icon: next, name: "Next.js" },
   { icon: express, name: "Express JS" },
