@@ -20,11 +20,11 @@ function Projects() {
                   code={project.linkToCode}
                   techStack={project.techStack}
                 />
-                <Project text="Coming soon... " />
-                <Project text="Coming soon... " />
               </>
             );
           })}
+          <Project text="Coming soon... " />
+          <Project text="Coming soon... " />
         </div>
       </div>
     </div>
