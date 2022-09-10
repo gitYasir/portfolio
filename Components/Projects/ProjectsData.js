@@ -5,14 +5,14 @@ const data = [
     linkToLive: "https://development-phantom-kitchen.netlify.app/",
     linkToCode:
       "https://github.com/SchoolOfCode/final-project-front-end-tech-phantoms",
-    techStack: ["JS", "SASS/SCSS", "React", "Next.js", "Node"],
+    techStack: ["JS", "SASS/SCSS", "React", "Next.js", "Node", "EmailJS"],
   },
   {
     projectName: "Barber Shop Website",
     screenShot: "/projects/barbershoptemplate.jpg",
     linkToLive: "https://barbershoptemplate.netlify.app/",
     linkToCode: "https://github.com/gitYasir/barber-shop-template",
-    techStack: ["JS", "SASS/SCSS", "React", "Next.js"],
+    techStack: ["JS", "SASS/SCSS", "React", "Next.js", "EmailJS"],
   },
   {
     projectName: "Masjid Website",
