@@ -13,7 +13,7 @@ const data = [
       "Font Awesome",
     ],
     reason:
-      "I decided to make this website and offer it to my local Masjid after finding out it did not have a website set up. It's not the completed product and will be improved over time to better suit the Masjids needs.",
+      "This is my portfolio website, where I showcase my skills and talents. ",
   },
   {
     projectName: "Bootcamp Final Project",
@@ -21,7 +21,15 @@ const data = [
     linkToLive: "https://development-phantom-kitchen.netlify.app/",
     linkToCode:
       "https://github.com/SchoolOfCode/final-project-front-end-tech-phantoms",
-    techStack: ["JS", "SASS/SCSS", "React", "Next.js", "Node", "EmailJS"],
+    techStack: [
+      "JS",
+      "SASS/SCSS",
+      "React",
+      "Next.js",
+      "Node",
+      "EmailJS",
+      "Express.JS",
+    ],
     reason:
       "This was my final project in my bootcamp. We were in a team of 6. We had 4 weeks to go from ideation and research to a fully functioning full-stack website. I enjoyed being able to work with my teammates and I think we did well for a group of people who only 12 weeks before the start of the project had no knowledge or very limited knowledge when it came to programming and coding.",
   },
