@@ -19,7 +19,7 @@
     flex-direction: column;
     background-color: skyblue;
     .para {
-      width: 50%;
+      width: 80%;
       padding-left: 2rem;
       p {
         text-align: center;
@@ -36,9 +36,6 @@
       border-radius: 10px;
       @media (width<700px) {
         width: 100%;
-      }
-      &:hover {
-        cursor: pointer;
       }
       .textAndLinkArea {
         height: 300px;
