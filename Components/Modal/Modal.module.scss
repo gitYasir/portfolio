@@ -6,73 +6,84 @@
 
 .modalContainer {
   @include disFlex;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.904);
-}
-.projectCard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 75%;
-  height: 300px;
-  margin: 1rem;
-  background-color: skyblue;
-  border-radius: 10px;
-  transition: all 0.2s linear;
-  @media (width<700px) {
-    width: 100%;
-  }
-  &:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: transform 500ms ease;
-  }
-  .textAndLinkArea {
-    height: 300px;
-    width: 250px;
+  .subContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    .btn {
-      a {
-        all: unset;
+    background-color: skyblue;
+    .para {
+      width: 50%;
+      padding-left: 2rem;
+      p {
+        text-align: center;
       }
+    }
+    .projectCard {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      width: 100%;
-      button {
+      width: 75%;
+      height: 300px;
+      margin: 1rem;
+      background-color: skyblue;
+      border-radius: 10px;
+      @media (width<700px) {
+        width: 100%;
+      }
+      &:hover {
         cursor: pointer;
-        border: none;
-        border-radius: 5px;
-        width: 80px;
-        &:hover {
-          background-color: rgba(112, 109, 109, 0.871);
+      }
+      .textAndLinkArea {
+        height: 300px;
+        width: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        .btn {
+          a {
+            all: unset;
+          }
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          button {
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            width: 80px;
+            &:hover {
+              background-color: rgba(112, 109, 109, 0.871);
+            }
+          }
+        }
+        .stack {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-items: center;
+          p {
+            margin: 1rem;
+          }
         }
       }
-    }
-    .stack {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      align-items: center;
-      p {
-        margin: 1rem;
+      .picArea {
+        height: 300px;
+        width: 250px;
+        position: relative;
+        .screenShot {
+          width: 100%;
+          border-radius: 5px;
+        }
       }
-    }
-  }
-  .picArea {
-    height: 300px;
-    width: 250px;
-    position: relative;
-    .screenShot {
-      width: 100%;
-      border-radius: 0 10px 10px 0;
     }
   }
 }

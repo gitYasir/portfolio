@@ -14,38 +14,40 @@ function Projects() {
     setModalData(item);
   }
   return (
-    <div className={css.mainContainer} id={"projects"}>
-      <div className={css.subContainer}>
-        <div className={css.title}>
-          <h3>Projects</h3>
-        </div>
-        <div className={css.projectsArea}>
-          {data.map((project) => {
-            return (
-              <div
-                className={css.projectsArea}
-                key={Math.random()}
-                onClick={() => {
-                  changeModal();
-                  setDataForModal(project);
-                }}
-              >
-                {modal && <Modal onClick={changeModal} data={modalData} />}
-                <Project
-                  pic={project.screenShot}
-                  name={project.projectName}
-                  live={project.linkToLive}
-                  code={project.linkToCode}
-                  techStack={project.techStack}
-                />
-              </div>
-            );
-          })}
-          <Project text="Coming soon... " />
-          <Project text="Coming soon... " />
+    <>
+      {modal && <Modal onClick={changeModal} data={modalData} />}
+      <div className={css.mainContainer} id={"projects"}>
+        <div className={css.subContainer}>
+          <div className={css.title}>
+            <h3>Projects</h3>
+          </div>
+          <div className={css.projectsArea}>
+            {data.map((project) => {
+              return (
+                <div
+                  className={css.projectsArea}
+                  key={Math.random()}
+                  onClick={() => {
+                    changeModal();
+                    setDataForModal(project);
+                  }}
+                >
+                  <Project
+                    pic={project.screenShot}
+                    name={project.projectName}
+                    live={project.linkToLive}
+                    code={project.linkToCode}
+                    techStack={project.techStack}
+                  />
+                </div>
+              );
+            })}
+            <Project text="Coming soon... " />
+            <Project text="Coming soon... " />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

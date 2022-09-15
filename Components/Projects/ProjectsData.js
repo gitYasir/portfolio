@@ -6,6 +6,7 @@ const data = [
     linkToCode:
       "https://github.com/SchoolOfCode/final-project-front-end-tech-phantoms",
     techStack: ["JS", "SASS/SCSS", "React", "Next.js", "Node", "EmailJS"],
+    reason: "this is the reason",
   },
   {
     projectName: "Barber Shop Website",
@@ -13,6 +14,7 @@ const data = [
     linkToLive: "https://barbershoptemplate.netlify.app/",
     linkToCode: "https://github.com/gitYasir/barber-shop-template",
     techStack: ["JS", "SASS/SCSS", "React", "Next.js", "EmailJS"],
+    reason: "2",
   },
   {
     projectName: "Masjid Website",
@@ -20,6 +22,7 @@ const data = [
     linkToLive: "https://masjid-usman.vercel.app/",
     linkToCode: "https://github.com/gitYasir/masjid-web-template",
     techStack: ["JS", "SASS/SCSS", "React", "Next.js"],
+    reason: "3",
   },
 ];
 
