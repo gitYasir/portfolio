@@ -1,5 +1,21 @@
 const data = [
   {
+    projectName: "Portfolio",
+    screenShot: "/projects/portfolio.png",
+    linkToLive: "https://yasir-ibrahim.me",
+    linkToCode: "https://github.com/gitYasir/portfolio",
+    techStack: [
+      "JS",
+      "SASS/SCSS",
+      "React",
+      "Next.js",
+      "EmailJS",
+      "Font Awesome",
+    ],
+    reason:
+      "I decided to make this website and offer it to my local Masjid after finding out it did not have a website set up. It's not the completed product and will be improved over time to better suit the Masjids needs.",
+  },
+  {
     projectName: "Bootcamp Final Project",
     screenShot: "/projects/finalProject1.jpg",
     linkToLive: "https://development-phantom-kitchen.netlify.app/",
