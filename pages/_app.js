@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           name="google-site-verification"
           content="kQN0bpkotPsezPE5J9Pk07u-zrFD5_YwkCJU-kKchWE"
         />
-        <link rel="icon" href="/myLogo.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </NextUIProvider>
