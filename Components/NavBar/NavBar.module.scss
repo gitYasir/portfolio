@@ -15,15 +15,15 @@
   .logoArea {
     position: relative;
     margin: 10px;
-    height: 6rem;
-    width: 6rem;
+    height: 4rem;
+    width: 4rem;
     .myLogo {
       border-radius: 50%;
     }
   }
   .span {
     position: absolute;
-    top: 2.5rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
