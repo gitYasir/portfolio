@@ -46,12 +46,8 @@ function Project({ pic, name, live, code, techStack, text }) {
             <p>stack</p>;<p>stack</p>;<p>stack</p>;<p>stack</p>;
           </div>
           <div className={css.btn}>
-            <a target="_blank" rel="noopener noreferrer">
-              <button>Live</button>
-            </a>
-            <a target="_blank" rel="noopener noreferrer">
-              <button>Code</button>
-            </a>
+            <button>Live</button>
+            <button>Code</button>
           </div>
         </div>
         <h2 className={css.showtext}>{text}</h2>
