@@ -9,16 +9,13 @@
   @include disFlex;
   flex-direction: column;
   width: auto;
-  background-image: url("../../public/desktop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   overflow: hidden;
-  background-attachment: fixed;
+  position: relative;
   .textArea {
     @include disFlex;
     width: 75%;
     margin-top: 20px;
+    z-index: 1;
     .picContainer {
       height: 150px;
       width: 160px;
