@@ -17,6 +17,8 @@ function Navbar() {
               src={"/myLogo.png"}
               alt={"My Logo"}
               layout={"fill"}
+              sizes="(max-width: 600px) 25vw
+              50vw"
               className={css.myLogo}
             />
           </a>

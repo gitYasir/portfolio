@@ -22,7 +22,7 @@ function Skills() {
                     layout="fill"
                   />
                 </div>
-                <h5>{icon.name}</h5>
+                <p>{icon.name}</p>
               </div>
             );
           })}
