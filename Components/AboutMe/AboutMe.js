@@ -11,6 +11,7 @@ function AboutMe() {
         layout={"fill"}
         objectFit={"cover"}
         objectPosition={"center"}
+        priority
       />
       <div className={css.textArea}>
         <div className={css.picContainer}>
@@ -19,6 +20,7 @@ function AboutMe() {
             alt={"Yasir Ibrahim"}
             className={css.pic}
             layout="fill"
+            priority
           />
         </div>
         <div className={css.aboutMe}>
@@ -44,6 +46,7 @@ function AboutMe() {
               href="/Yasir Ibrahim CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="CV"
             >
               <FontAwesomeIcon
                 icon={faDownload}

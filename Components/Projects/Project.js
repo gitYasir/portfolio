@@ -50,7 +50,7 @@ function Project({ pic, name, live, code, techStack, text }) {
             <button>Code</button>
           </div>
         </div>
-        <h2 className={css.showtext}>{text}</h2>
+        <p className={css.showtext}>{text}</p>
         <div className={css.picArea}>
           <Image
             src="/projects/finalProject1.jpg"

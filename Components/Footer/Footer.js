@@ -8,7 +8,7 @@ function Footer() {
     <div className={css.container}>
       <div className={css.extLinks}>
         <Link href={"https://www.linkedin.com/in/yasir-ibrahim/"}>
-          <a target="_blank">
+          <a target="_blank" aria-label="Linked In">
             <FontAwesomeIcon
               icon={faLinkedinIn}
               style={{ width: "40px", height: "40px" }}
@@ -17,7 +17,7 @@ function Footer() {
           </a>
         </Link>
         <Link href={"https://github.com/gitYasir"}>
-          <a target="_blank">
+          <a target="_blank" aria-label="GitHub">
             <FontAwesomeIcon
               icon={faGithub}
               style={{ width: "40px", height: "40px" }}
@@ -26,7 +26,7 @@ function Footer() {
           </a>
         </Link>
       </div>
-      <h5>Site developed by Yasir Ibrahim using Next.js</h5>
+      <h4>Site developed by Yasir Ibrahim using Next.js</h4>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Splash from "../Components/Splash/Splash";
 import Navbar from "../Components/NavBar/Navbar";
 import AboutMe from "../Components/AboutMe/AboutMe";

@@ -6,15 +6,9 @@
 
 .splash {
   @include disFlex;
-
+  position: relative;
   height: 100vh;
   width: auto;
-  background-image: url("../../public/sky.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-
   .info {
     @include disFlex;
     background-color: rgba($color: #000000, $alpha: 0.8);
@@ -24,7 +18,7 @@
     text-align: center;
     padding: 4rem;
     flex-direction: column;
-
+    z-index: 1;
     h3 {
       color: white;
     }

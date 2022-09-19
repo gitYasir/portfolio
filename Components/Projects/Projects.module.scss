@@ -110,6 +110,8 @@
     transition: transform 500ms ease;
   }
   .showtext {
+    font-size: 2rem;
+    font-weight: 500;
     &:hover {
       z-index: 444;
     }
