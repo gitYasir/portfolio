@@ -17,7 +17,7 @@ function Project({ pic, name, live, code, techStack, text }) {
           <div className={css.btn}>
             <Link href={live}>
               <a target="_blank" rel="noopener noreferrer">
-                <button>Live</button>
+                <button>Visit</button>
               </a>
             </Link>
             <Link href={code}>

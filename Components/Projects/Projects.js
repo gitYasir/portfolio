@@ -32,6 +32,7 @@ function Projects() {
                     setDataForModal(project);
                   }}
                 >
+                  <p className={css.pName}>{project.projectName}</p>
                   <Project
                     pic={project.screenShot}
                     name={project.projectName}

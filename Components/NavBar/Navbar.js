@@ -35,27 +35,27 @@ function Navbar() {
       <div className={state ? `${css.menu} ${css.active}` : css.menu}>
         <ul>
           <li>
-            <Link href={"#home"} passHref>
+            <Link href={"/#home"} passHref>
               <a>Home</a>
             </Link>
           </li>
           <li>
-            <Link href={"#aboutMe"} passHref>
+            <Link href={"/#aboutMe"} passHref>
               <a>About Me</a>
             </Link>
           </li>
           <li>
-            <Link href={"#skills"} passHref>
+            <Link href={"/#skills"} passHref>
               <a>Skills</a>
             </Link>
           </li>
           <li>
-            <Link href={"#projects"} passHref>
+            <Link href={"/#projects"} passHref>
               <a>Projects</a>
             </Link>
           </li>
           <li>
-            <Link href={"#contactMe"} passHref>
+            <Link href={"/#contactMe"} passHref>
               <a>Contact Me</a>
             </Link>
           </li>
