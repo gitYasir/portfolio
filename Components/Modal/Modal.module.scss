@@ -9,6 +9,7 @@
   height: 100%;
   width: 100%;
   position: fixed;
+  padding-top: 104px;
   top: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.904);
@@ -23,6 +24,7 @@
     .para {
       width: 80%;
       padding-left: 2rem;
+      text-align: center;
       p {
         text-align: center;
       }

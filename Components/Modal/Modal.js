@@ -7,6 +7,7 @@ function Modal({ onClick, data }) {
     <div className={css.modalContainer} onClick={onClick}>
       <div className={css.subContainer}>
         <div className={css.para}>
+          <h3>{data.projectName}</h3>
           <p>{data.reason}</p>
         </div>
         <div className={css.projectCard}>
