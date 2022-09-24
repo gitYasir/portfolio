@@ -5,6 +5,7 @@ const data = [
     linkToLive: "https://yasir-ibrahim.me",
     linkToCode: "https://github.com/gitYasir/portfolio",
     techStack: [
+      "HTML",
       "JS",
       "SASS/SCSS",
       "React",
@@ -22,6 +23,7 @@ const data = [
     linkToCode:
       "https://github.com/SchoolOfCode/final-project-front-end-tech-phantoms",
     techStack: [
+      "HTML",
       "JS",
       "SASS/SCSS",
       "React",
@@ -38,7 +40,7 @@ const data = [
     screenShot: "/projects/barbershoptemplate.jpg",
     linkToLive: "https://barbershoptemplate.netlify.app/",
     linkToCode: "https://github.com/gitYasir/barber-shop-template",
-    techStack: ["JS", "SASS/SCSS", "React", "Next.js", "EmailJS"],
+    techStack: ["HTML", "JS", "SASS/SCSS", "React", "Next.js", "EmailJS"],
     reason:
       "I made this website as a template to offer to local business, specifically barber shops, as a proof of my capabilities. My plan is to show this website and hopefully get their business to make their businesses website.",
   },
