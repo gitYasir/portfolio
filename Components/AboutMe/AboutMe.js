@@ -40,22 +40,27 @@ function AboutMe() {
             <li>Number: 07742610978</li>
           </ul>
         </div>
-        <div className={css.cv}>
-          <div className={css.download}>
-            <a
-              href="/Yasir Ibrahim CV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="CV"
-            >
-              <FontAwesomeIcon
-                icon={faDownload}
-                style={{ width: "30px", height: "30px" }}
-                className={css.downloadIcon}
-              />
-              <label>Download CV</label>
-            </a>
-          </div>
+        <div className={css.downloadArea}>
+          <a
+            href="/prayer-timetable.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Prayer Timetable"
+            download
+          >
+            <div className={css.cv}>
+              <div className={css.download}>
+                <div>
+                  <FontAwesomeIcon
+                    icon={faDownload}
+                    style={{ width: "30px", height: "30px" }}
+                    className={css.downloadIcon}
+                  />
+                </div>
+                <label>Download</label>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>

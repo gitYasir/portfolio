@@ -7,7 +7,6 @@
 
 .aboutMeSec {
   @include disFlex;
-  flex-direction: column;
   width: auto;
   overflow: hidden;
   position: relative;
@@ -54,29 +53,33 @@
         font-size: 1.4rem;
       }
     }
-    .cv {
-      @include disFlex;
-      width: 50%;
-      padding: 1rem;
-
-      .download {
+    .downloadArea {
+      a {
+        all: unset;
+      }
+      .cv {
         @include disFlex;
-        flex-direction: row;
-        background-color: rgb(128, 128, 128, 0.1);
-        padding: 0.5rem;
-        margin-bottom: 4rem;
-        &:hover {
-          background-color: gray;
-          cursor: pointer;
-        }
-        a {
-          all: unset;
-        }
-        .downloadIcon {
-          margin: 0 0.5rem 0 0;
-        }
-        label {
-          cursor: pointer;
+        width: 50%;
+        padding: 1rem;
+
+        .download {
+          @include disFlex;
+          flex-direction: row;
+          background-color: rgb(128, 128, 128, 0.1);
+          padding: 0.5rem;
+          margin-bottom: 4rem;
+          border-radius: 5px;
+          &:hover {
+            background-color: gray;
+            cursor: pointer;
+          }
+
+          .downloadIcon {
+            margin: 0 0.5rem 0 0;
+          }
+          label {
+            cursor: pointer;
+          }
         }
       }
     }
