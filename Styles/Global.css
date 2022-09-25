@@ -1,6 +1,8 @@
 html,
 body {
   background-color: rgb(70, 69, 69);
-  width: fit-content;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   scroll-behavior: smooth;
 }
