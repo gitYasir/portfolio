@@ -16,7 +16,7 @@ function Projects() {
   return (
     <>
       {modal && <Modal onClick={changeModal} data={modalData} />}
-      <div className={css.mainContainer} id={"projects"}>
+      <div className={css.mainContainer}>
         <div className={css.subContainer}>
           <div className={css.title}>
             <h3>Projects</h3>
