@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 function AboutMe() {
   return (
-    <section className={css.aboutMeSec} id={"aboutMe"}>
+    <section className={css.aboutMeSec}>
       <Image
         src={"/desktop.jpg"}
         alt={"background image"}
