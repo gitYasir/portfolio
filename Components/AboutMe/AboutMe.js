@@ -42,10 +42,10 @@ function AboutMe() {
         </div>
         <div className={css.downloadArea}>
           <a
-            href="/prayer-timetable.jpg"
+            href="/Yasir Ibrahim CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Prayer Timetable"
+            aria-label="CV"
             download
           >
             <div className={css.cv}>
