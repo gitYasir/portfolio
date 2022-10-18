@@ -19,9 +19,12 @@ import ruby from "../../public/Icons/ruby-svgrepo-com.svg";
 import flutter from "../../public/Icons/flutter-svgrepo-com.svg";
 import cypress from "../../public/Icons/cypress-svgrepo-com.svg";
 import jira from "../../public/Icons/jira-svgrepo-com.svg";
+import typeScript from "../../public/Icons/typescript-logo-svgrepo-com.svg";
+import cSharp from "../../public/Icons/c-sharp-svgrepo-com.svg";
 
 const skillsIcons = [
   { icon: js, name: "JavaScript" },
+  { icon: typeScript, name: "TypeScript (Learning)" },
   { icon: html, name: "HTML5" },
   { icon: sass, name: "SASS/CSS" },
   { icon: react, name: "React" },
@@ -39,9 +42,10 @@ const skillsIcons = [
   { icon: gitActions, name: "GitHub Actions" },
   { icon: nextUI, name: "NextUI" },
   { icon: postman, name: "Postman" },
+  { icon: flutter, name: "Flutter (Learning)" },
   { icon: ruby, name: "Ruby" },
   { icon: jira, name: "Jira" },
-  { icon: flutter, name: "Flutter (Learning)" },
+  { icon: cSharp, name: "C# (Learning)" },
 ];
 
 export default skillsIcons;
