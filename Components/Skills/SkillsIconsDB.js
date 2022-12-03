@@ -45,7 +45,7 @@ const skillsIcons = [
   { icon: flutter, name: "Flutter (Learning)" },
   { icon: ruby, name: "Ruby" },
   { icon: jira, name: "Jira" },
-  { icon: cSharp, name: "C# (Learning)" },
+  { icon: cSharp, name: "C#" },
 ];
 
 export default skillsIcons;
