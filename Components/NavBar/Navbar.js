@@ -32,7 +32,10 @@ function Navbar() {
         <span></span>
         <span></span>
       </div>
-      <div className={state ? `${css.menu} ${css.active}` : css.menu}>
+      <div
+        className={state ? `${css.menu} ${css.active}` : css.menu}
+        onClick={toggleMenu}
+      >
         <ul>
           <li>
             <Link href={"/#home"} passHref>
