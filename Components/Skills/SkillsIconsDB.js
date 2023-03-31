@@ -46,6 +46,7 @@ const skillsIcons = [
   { icon: ruby, name: "Ruby" },
   { icon: jira, name: "Jira" },
   { icon: cSharp, name: "C#" },
+  { icon: react, name: "React Native" },
 ];
 
 export default skillsIcons;
